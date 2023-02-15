@@ -115,6 +115,7 @@
             }
 
             .card .imgBox img {
+                margin-top: 30px;
                 min-width: 240px;
                 max-width: 230px;
 
@@ -133,6 +134,7 @@
             }
 
             .card .details {
+                animation: fade-in-animation 2500ms ease-in;
                 width: 100%;
                 position: absolute;
                 top: 0;
@@ -148,7 +150,7 @@
                 font-weight: 700;
                 direction: rtl;
                 font-size: 18px;
-                line-height: 4px;
+                line-height: 7px;
                 transform: rotate(-10deg);
                 text-align: center;
                 padding: 0 20px 0 20px;
@@ -160,6 +162,20 @@
 
             .text-right {
                 text-align: right;
+            }
+
+            @keyframes fade-in-animation {
+                0% {
+                    opacity: 0;
+                }
+
+                90% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
             }
         </style>
         <script>
@@ -183,8 +199,7 @@
                 <p> מאחל לך שתמצאי חברים ושותפים</p>
                 <p> בכל מקום שתצטרכי ותחפשי אותם</p>
 
-                <p>Con amor tu hermana. 🎁 :)</p>
-                <p class="text-right">♥ מחן</p>
+                <p class="text-right">❤️ מחן</p>
             </div>
         </div>
     </body>
