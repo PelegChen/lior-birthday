@@ -97,6 +97,10 @@
                 position: relative;
                 transform-origin: left;
                 transition: 0.7s;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
             }
 
             .card .bark {
@@ -106,11 +110,16 @@
                 height: 100%;
                 opacity: 0;
                 transition: 0.7s;
+
+
             }
 
             .card .imgBox img {
-                min-width: 250px;
-                max-height: 400px;
+                min-width: 240px;
+                max-width: 230px;
+
+                max-height: 350px;
+                border-radius: 40%;
             }
 
             .card:hover .imgBox {
@@ -124,6 +133,7 @@
             }
 
             .card .details {
+                width: 100%;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -141,7 +151,7 @@
                 line-height: 4px;
                 transform: rotate(-10deg);
                 text-align: center;
-                padding: 0 0 0 20px;
+                padding: 0 20px 0 20px;
             }
 
             .card .details h4 {
@@ -161,23 +171,18 @@
         <div class="card">
             <div class="imgBox">
                 <div class="bark"></div>
-                <img src="public/portrait.jpeg">
+                <img src="public/portrait.jpg">
             </div>
             <div class="details">
                 <h4 class="color1">ליאור</h4>
                 <h4 class="color2 margin">יום הולדת שמח</h4>
-                <p>🎁 מזל טוב!</p>
+                <p> מזל טוב!🎁</p>
                 <p> מאחל לך אושר</p>
                 <p> שנמשיך את השותפות שלנו ביחד</p>
                 <p> על אופק, על תות, על הבית </p>
-                <p> מאחל לך ש</p>
-                <p>Gracias por ser mi hermana, </p>
-                <p>gracias por cuidarme, apoyarme y amarme</p>
-                <p>inclusive cuando no lo merecía.</p>
-                <p>Que la vida te colme de regalos, </p>
-                <p>alegrías y sonrisas hermana,</p>
-                <p>mereces mucho más de lo.</p>
-                <p>que vida te puede dar.</p>
+                <p> מאחל לך שתמצאי חברים ושותפים</p>
+                <p> בכל מקום שתצטרכי ותחפשי אותם</p>
+
                 <p>Con amor tu hermana. 🎁 :)</p>
                 <p class="text-right">♥ מחן</p>
             </div>
