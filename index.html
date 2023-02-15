@@ -67,6 +67,11 @@
                     0 10px 100px rgba(0, 0, 0, 0.5);
             }
 
+            .card:hover .details {
+
+                opacity: 1;
+            }
+
             .card:before {
                 content: "";
                 position: absolute;
@@ -134,7 +139,9 @@
             }
 
             .card .details {
-                animation: fade-in-animation 2500ms ease-in;
+                transition: opacity 400ms ease-in-out;
+                opacity: 50%;
+                /* animation: fade-in-animation 2500ms ease-in; */
                 width: 100%;
                 position: absolute;
                 top: 0;
